@@ -5152,3 +5152,339 @@ Completed 200 OK in 6054ms (Views: 6044.4ms | ActiveRecord: 0.0ms | Allocations:
 Completed 200 OK in 2366ms (Views: 2358.1ms | ActiveRecord: 0.0ms | Allocations: 262893)
 
 
+Started GET "/" for ::1 at 2020-04-05 19:37:58 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3959.6ms | Allocations: 250250)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 102)
+Completed 200 OK in 4574ms (Views: 4566.6ms | ActiveRecord: 0.0ms | Allocations: 368035)
+
+
+Started GET "/" for ::1 at 2020-04-05 19:43:55 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 133.6ms | Allocations: 22390)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 109)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 102)
+Completed 200 OK in 188ms (Views: 181.8ms | ActiveRecord: 0.0ms | Allocations: 38077)
+
+
+Started GET "/" for ::1 at 2020-04-06 14:00:45 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 295.3ms | Allocations: 22393)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 109)
+  Rendered layouts/_footer.html.erb (Duration: 11.4ms | Allocations: 102)
+Completed 200 OK in 388ms (Views: 379.3ms | ActiveRecord: 0.0ms | Allocations: 38088)
+
+
+Started GET "/" for ::1 at 2020-04-06 14:01:22 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 22.0ms | Allocations: 2699)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 4154ms (Views: 4148.2ms | ActiveRecord: 0.0ms | Allocations: 231791)
+
+
+Started GET "/" for ::1 at 2020-04-06 14:02:26 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 2719)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2862ms (Views: 2859.4ms | ActiveRecord: 0.0ms | Allocations: 216671)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:23:08 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+Started GET "/" for ::1 at 2020-04-06 16:23:11 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4596.0ms | Allocations: 296026)
+  Rendered home/index.html.erb within layouts/application (Duration: 1407.1ms | Allocations: 68785)
+  Rendered layouts/_navigation.html.erb (Duration: 2.0ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 110)
+Completed 200 OK in 2806ms (Views: 2803.6ms | ActiveRecord: 0.0ms | Allocations: 278409)
+
+
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 6125ms (Views: 6117.5ms | ActiveRecord: 0.0ms | Allocations: 539508)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:24:01 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 16.7ms | Allocations: 2713)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 2654ms (Views: 2651.7ms | ActiveRecord: 0.0ms | Allocations: 217379)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:24:20 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2712)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2280ms (Views: 2278.2ms | ActiveRecord: 0.0ms | Allocations: 216981)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:24:22 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 2712)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 41ms (Views: 38.2ms | ActiveRecord: 0.0ms | Allocations: 15122)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:25:08 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 2698)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2394ms (Views: 2392.1ms | ActiveRecord: 0.0ms | Allocations: 217374)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:25:32 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2712)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2182ms (Views: 2179.7ms | ActiveRecord: 0.0ms | Allocations: 217803)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:25:40 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 19.5ms | Allocations: 2713)
+Completed 500 Internal Server Error in 299ms (ActiveRecord: 0.0ms | Allocations: 80000)
+
+
+  
+ActionView::Template::Error (Error: overloaded function `rgba` given wrong number of arguments
+        on line 423:51 of app/assets/stylesheets/style.scss
+        from line 1:9 of app/assets/stylesheets/application.scss
+>> ground: linear-gradient(45deg, black 20%, rgba(65,105,225))!important;
+
+   ------------------------------------------^
+):
+    15: 
+    16:     <%= favicon_link_tag asset_path('icons8-share-40.png') %>
+    17: 
+    18:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    19:     <%= csrf_meta_tags %>
+    20:   </head>
+    21: 
+  
+app/assets/stylesheets/style.scss:423
+app/views/layouts/application.html.erb:18
+Started GET "/" for ::1 at 2020-04-06 16:25:52 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2732)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1892ms (Views: 1890.2ms | ActiveRecord: 0.0ms | Allocations: 217393)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:26:04 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 2711)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1931ms (Views: 1930.3ms | ActiveRecord: 0.0ms | Allocations: 217804)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:26:10 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 2711)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2307ms (Views: 2304.4ms | ActiveRecord: 0.0ms | Allocations: 218219)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:26:17 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 2711)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 15162)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:26:33 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2698)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2400ms (Views: 2399.1ms | ActiveRecord: 0.0ms | Allocations: 218214)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:26:41 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2711)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1882ms (Views: 1879.8ms | ActiveRecord: 0.0ms | Allocations: 218276)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:27:19 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 2711)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2474ms (Views: 2473.4ms | ActiveRecord: 0.0ms | Allocations: 217802)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:27:32 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 2712)
+Completed 500 Internal Server Error in 470ms (ActiveRecord: 0.0ms | Allocations: 79526)
+
+
+  
+ActionView::Template::Error (Error: overloaded function `rgba` given wrong number of arguments
+        on line 423:51 of app/assets/stylesheets/style.scss
+        from line 1:9 of app/assets/stylesheets/application.scss
+>> ground: linear-gradient(45deg, black 20%, rgba(246,249,252))!important;
+
+   ------------------------------------------^
+):
+    15: 
+    16:     <%= favicon_link_tag asset_path('icons8-share-40.png') %>
+    17: 
+    18:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    19:     <%= csrf_meta_tags %>
+    20:   </head>
+    21: 
+  
+app/assets/stylesheets/style.scss:423
+app/views/layouts/application.html.erb:18
+Started GET "/" for ::1 at 2020-04-06 16:28:08 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2712)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1930ms (Views: 1929.3ms | ActiveRecord: 0.0ms | Allocations: 217433)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:28:27 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2711)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 2113ms (Views: 2111.4ms | ActiveRecord: 0.0ms | Allocations: 217938)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:28:35 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2711)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1901ms (Views: 1899.3ms | ActiveRecord: 0.0ms | Allocations: 218209)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:28:42 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2712)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms | Allocations: 15637)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:28:48 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2711)
+Completed 500 Internal Server Error in 350ms (ActiveRecord: 0.0ms | Allocations: 79519)
+
+
+  
+ActionView::Template::Error (Error: overloaded function `rgba` given wrong number of arguments
+        on line 423:51 of app/assets/stylesheets/style.scss
+        from line 1:9 of app/assets/stylesheets/application.scss
+>> ground: linear-gradient(45deg, black 20%, rgba(73,135,209,))!important;
+
+   ------------------------------------------^
+):
+    15: 
+    16:     <%= favicon_link_tag asset_path('icons8-share-40.png') %>
+    17: 
+    18:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    19:     <%= csrf_meta_tags %>
+    20:   </head>
+    21: 
+  
+app/assets/stylesheets/style.scss:423
+app/views/layouts/application.html.erb:18
+Started GET "/" for ::1 at 2020-04-06 16:29:06 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2712)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1994ms (Views: 1992.9ms | ActiveRecord: 0.0ms | Allocations: 216552)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:29:32 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 2711)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2309ms (Views: 2305.8ms | ActiveRecord: 0.0ms | Allocations: 217879)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:29:41 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 2712)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1917ms (Views: 1915.1ms | ActiveRecord: 0.0ms | Allocations: 217838)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:30:06 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2712)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2171ms (Views: 2167.0ms | ActiveRecord: 0.0ms | Allocations: 215765)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:30:24 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2712)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2157ms (Views: 2155.1ms | ActiveRecord: 0.0ms | Allocations: 217835)
+
+
+Started GET "/" for ::1 at 2020-04-06 16:30:47 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2711)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 1999ms (Views: 1996.8ms | ActiveRecord: 0.0ms | Allocations: 217811)
+
+

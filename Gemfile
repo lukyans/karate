@@ -43,10 +43,9 @@ gem "jquery-slick-rails"
 gem 'wow-rails'
 gem 'nokogiri'
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
-
+gem 'pg'
 
 group :development, :test do
-  gem 'pg'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
@@ -55,7 +54,6 @@ group :development, :test do
 end
 group :production do
 # Use Pg and rails_12factor for Heroku Deployment
-gem 'pg'
 gem 'rails_12factor'
 end
 group :development do

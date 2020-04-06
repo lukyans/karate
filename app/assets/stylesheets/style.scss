@@ -379,7 +379,7 @@ font-family: 'Caveat', cursive;
   background-repeat:   no-repeat;
 }
 #video-area .contents {
-  padding: 300px 0 80px;
+  padding: 160px 0 80px;
 }
 #video-area .contents h1 {
   color: #fff;
@@ -420,7 +420,7 @@ font-family: 'Caveat', cursive;
     bottom: 0;
     left: 0;
     // background: rgba(black, 0.4);
-    background: linear-gradient(45deg, black 20%, rgba(255,0,0,.9))!important;
+    background: linear-gradient(45deg, black 30%, rgba(65,105,225, .9))!important;
     opacity: 0.8;
     z-index: 300;
 
@@ -1165,10 +1165,10 @@ footer {
 .linkedin a:hover {
   background: #007bb6;
 }
-.pinterest a {
+.instagram a {
   color: #bd081c;
 }
-.pinterest a:hover {
+.instagram a:hover {
   background: #bd081c;
 }
 .dribbble a {
