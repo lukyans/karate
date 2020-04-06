@@ -15,7 +15,7 @@
 
     <%= favicon_link_tag asset_path('icons8-share-40.png') %>
 
-    <!--  -->
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= csrf_meta_tags %>
   </head>
 
@@ -23,6 +23,6 @@
   <%= render 'layouts/navigation'%>
     <%= yield %>
     <%= render 'layouts/footer'%>
-<!--  -->
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>
