@@ -5587,3 +5587,729 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms | Allocations: 15635)
 
 
+Started GET "/" for ::1 at 2020-04-07 15:29:13 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 127.8ms | Allocations: 22386)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 109)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 102)
+Completed 200 OK in 184ms (Views: 172.1ms | ActiveRecord: 0.0ms | Allocations: 38082)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:31:40 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5022.2ms | Allocations: 289840)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 102)
+Completed 200 OK in 5769ms (Views: 5766.9ms | ActiveRecord: 0.0ms | Allocations: 445717)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:32:08 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 3794)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 5736)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:32:31 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1182)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3116)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!-- Header Section Start -->
+    <header id="video-area" data-stellar-background-ratio="0.5">
+      <div class="fixed-top">
+        <div class="container">
+          <div class="logo-menu">
+            <a href="" class="logo"><strong><span class="lukyans h2">Lukyans</span> Team USA</strong></a>
+            <!-- <button class="menu-button" id="open-button"><i class="fa fa-bars" aria-hidden="true"></i></button> -->
+
+             <%= image_tag("usa.jpg", class: "navbar_logo", style: "border-radius: 0px;" width: "20", height: "20") %>
+
+           </a>
+          </div>
+        </div>
+      </div>
+      <div class="slide l-fade" data-ride="carousel" data-interval="4000">
+        <div class="back-img carousel-item active"></div>
+        <div class="back-img2 carousel-item"></div>
+        <div class="back-img3 carousel-item" data-interval="2400">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://res.cloudinary.com/dbo1mgpii/video/upload/v1586114951/karate_fight.mp4" type="video/mp4">
+      </video>
+      </div>
+      </div>
+      <div class="overlay-2"></div>
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-md-10">
+            <div class="contents text-center">
+              <h1 class="wow pos fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Help out reach the winning goal and take home the trophy</h1>
+              <p class="lead pos wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">The USA Team has been selected and Im so excited to be competing in Japan 2020 World Cup.</p>
+              <a href="#portfolios" class="btn pos btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Shop now</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolios" class="section">
+      <!-- Container Starts -->
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Portfolio Controller/Buttons -->
+            <div class="controls text-center wow fadeInUp" data-wow-delay=".6s">
+              <a class="control mixitup-control-active btn btn-common" data-filter="all">
+                All
+              </a>
+              <a class="control btn btn-common" data-filter=".marketing">
+                T-Shirts
+              </a>
+              <a class="control btn btn-common" data-filter=".planning">
+                Development
+              </a>
+              <a class="control btn btn-common" data-filter=".research">
+                Print
+              </a>
+            </div>
+            <!-- Portfolio Controller/Buttons Ends-->
+
+            <!-- Portfolio Recent Projects -->
+            <div id="portfolio" class="row wow fadeInUp" data-wow-delay="0.8s">
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
+                <div class="portfolio-item">
+                  <div class="shot-item">
+                  <a class="overlay lightbox" href="https://res.cloudinary.com/dbo1mgpii/image/upload/v1579817577/4.png">
+                      <%= image_tag("portfolio/img1.jpg", alt: "")%>
+                      <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+                  </a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning">
+                <div class="portfolio-item">
+                  <div class="shot-item">
+                    <a class="overlay lightbox" href="img/portfolio/img2.jpg">
+
+                      <%= image_tag("portfolio/img2.jpg", alt: "")%>
+                      <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix research">
+                <div class="portfolio-item">
+                  <div class="shot-item">
+                    <a class="overlay lightbox" href="img/portfolio/img3.jpg">
+                      <%= image_tag("portfolio/img3.jpg", alt: "")%>
+                      <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing research">
+                <div class="portfolio-item">
+                  <div class="shot-item">
+                    <a class="overlay lightbox" href="img/portfolio/img4.jpg">
+                      <%= image_tag("portfolio/img4.jpg", alt: "")%>
+                      <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
+                <div class="portfolio-item">
+                  <div class="shot-item">
+                    <a class="overlay lightbox" href="img/portfolio/img5.jpg">
+                      <%= image_tag("portfolio/img5.jpg", alt: "")%>
+                      <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning research">
+                <div class="portfolio-item">
+                  <div class="shot-item">
+                    <a class="overlay lightbox" href="img/portfolio/img6.jpg">
+                      <%= image_tag("portfolio/img6.jpg", alt: "")%>
+                      <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Container Ends -->
+    </section>
+    <!-- Portfolio Section Ends -->
+
+):
+1:    <!-- Header Section Start -->
+2:        <header id="video-area" data-stellar-background-ratio="0.5">
+3:          <div class="fixed-top">
+4:            <div class="container">
+5:              <div class="logo-menu">
+6:                <a href="" class="logo"><strong><span class="lukyans h2">Lukyans</span> Team USA</strong></a>
+7:                <!-- <button class="menu-button" id="open-button"><i class="fa fa-bars" aria-hidden="true"></i></button> -->
+8:    
+9:                 <%= image_tag("usa.jpg", class: "navbar_logo", style: "border-radius: 0px;" width: "20", height: "20") %>
+10:    
+11:               </a>
+12:              </div>
+13:            </div>
+14:          </div>
+15:          <div class="slide l-fade" data-ride="carousel" data-interval="4000">
+16:            <div class="back-img carousel-item active"></div>
+17:            <div class="back-img2 carousel-item"></div>
+18:            <div class="back-img3 carousel-item" data-interval="2400">
+19:            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+20:                <source src="https://res.cloudinary.com/dbo1mgpii/video/upload/v1586114951/karate_fight.mp4" type="video/mp4">
+21:          </video>
+22:          </div>
+23:          </div>
+24:          <div class="overlay-2"></div>
+25:          <div class="container">
+26:            <div class="row justify-content-md-center">
+27:              <div class="col-md-10">
+28:                <div class="contents text-center">
+29:                  <h1 class="wow pos fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Help out reach the winning goal and take home the trophy</h1>
+30:                  <p class="lead pos wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">The USA Team has been selected and Im so excited to be competing in Japan 2020 World Cup.</p>
+31:                  <a href="#portfolios" class="btn pos btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Shop now</a>
+32:                </div>
+33:    
+34:              </div>
+35:            </div>
+36:          </div>
+37:        </header>
+38:        <!-- Header Section End -->
+39:    
+40:        <!-- Portfolio Section -->
+41:        <section id="portfolios" class="section">
+42:          <!-- Container Starts -->
+43:          <div class="container">
+44:    
+45:            <div class="row">
+46:              <div class="col-md-12">
+47:                <!-- Portfolio Controller/Buttons -->
+48:                <div class="controls text-center wow fadeInUp" data-wow-delay=".6s">
+49:                  <a class="control mixitup-control-active btn btn-common" data-filter="all">
+50:                    All
+51:                  </a>
+52:                  <a class="control btn btn-common" data-filter=".marketing">
+53:                    T-Shirts
+54:                  </a>
+55:                  <a class="control btn btn-common" data-filter=".planning">
+56:                    Development
+57:                  </a>
+58:                  <a class="control btn btn-common" data-filter=".research">
+59:                    Print
+60:                  </a>
+61:                </div>
+62:                <!-- Portfolio Controller/Buttons Ends-->
+63:    
+64:                <!-- Portfolio Recent Projects -->
+65:                <div id="portfolio" class="row wow fadeInUp" data-wow-delay="0.8s">
+66:                  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
+67:                    <div class="portfolio-item">
+68:                      <div class="shot-item">
+69:                      <a class="overlay lightbox" href="https://res.cloudinary.com/dbo1mgpii/image/upload/v1579817577/4.png">
+70:                          <%= image_tag("portfolio/img1.jpg", alt: "")%>
+71:                          <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+72:                      </a>
+73:    
+74:                      </div>
+75:                    </div>
+76:                  </div>
+77:                  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning">
+78:                    <div class="portfolio-item">
+79:                      <div class="shot-item">
+80:                        <a class="overlay lightbox" href="img/portfolio/img2.jpg">
+81:    
+82:                          <%= image_tag("portfolio/img2.jpg", alt: "")%>
+83:                          <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+84:                        </a>
+85:                      </div>
+86:                    </div>
+87:                  </div>
+88:                  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix research">
+89:                    <div class="portfolio-item">
+90:                      <div class="shot-item">
+91:                        <a class="overlay lightbox" href="img/portfolio/img3.jpg">
+92:                          <%= image_tag("portfolio/img3.jpg", alt: "")%>
+93:                          <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+94:                        </a>
+95:                      </div>
+96:                    </div>
+97:                  </div>
+98:                  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing research">
+99:                    <div class="portfolio-item">
+100:                      <div class="shot-item">
+101:                        <a class="overlay lightbox" href="img/portfolio/img4.jpg">
+102:                          <%= image_tag("portfolio/img4.jpg", alt: "")%>
+103:                          <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+104:                        </a>
+105:                      </div>
+106:                    </div>
+107:                  </div>
+108:                  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
+109:                    <div class="portfolio-item">
+110:                      <div class="shot-item">
+111:                        <a class="overlay lightbox" href="img/portfolio/img5.jpg">
+112:                          <%= image_tag("portfolio/img5.jpg", alt: "")%>
+113:                          <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+114:                        </a>
+115:                      </div>
+116:                    </div>
+117:                  </div>
+118:                  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning research">
+119:                    <div class="portfolio-item">
+120:                      <div class="shot-item">
+121:                        <a class="overlay lightbox" href="img/portfolio/img6.jpg">
+122:                          <%= image_tag("portfolio/img6.jpg", alt: "")%>
+123:                          <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+124:                        </a>
+125:                      </div>
+126:                    </div>
+127:                  </div>
+128:                </div>
+129:              </div>
+130:            </div>
+131:          </div>
+132:          <!-- Container Ends -->
+133:        </section>
+134:        <!-- Portfolio Section Ends -->
+  
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected ',', expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected ',', expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected ',', expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected ',', expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected ',', expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected ',', expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting `end'
+Started GET "/" for ::1 at 2020-04-07 15:32:44 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 3549)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 110)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 100)
+Completed 200 OK in 40ms (Views: 37.1ms | ActiveRecord: 0.0ms | Allocations: 17606)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:33:16 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 3528)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 100)
+Completed 200 OK in 49ms (Views: 46.5ms | ActiveRecord: 0.0ms | Allocations: 17355)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:34:22 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 5143)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms | Allocations: 18012)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:34:31 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 3514)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 100)
+Completed 200 OK in 50ms (Views: 47.7ms | ActiveRecord: 0.0ms | Allocations: 17336)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:34:39 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3528)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 100)
+Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.0ms | Allocations: 17367)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:37:11 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 17.0ms | Allocations: 5101)
+  Rendered layouts/_navigation.html.erb (Duration: 1.4ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 100)
+Completed 200 OK in 62ms (Views: 59.5ms | ActiveRecord: 0.0ms | Allocations: 18964)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:38:00 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 3040)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 4972)
+
+
+  
+ActionView::Template::Error (The asset "usa.jpg" is not present in the asset pipeline.):
+     6:             <a href="" class="logo"><strong><span class="lukyans h2">Lukyans</span> Team USA</strong></a>
+     7:             <!-- <button class="menu-button" id="open-button"><i class="fa fa-bars" aria-hidden="true"></i></button> -->
+     8: 
+     9:              <%= image_tag("usa.jpg", class: "navbar_logo", style: "border-radius: 0px;", width: "45", height: "30") %>
+    10: 
+    11:            </a>
+    12:           </div>
+  
+app/views/home/index.html.erb:9
+Started GET "/" for ::1 at 2020-04-07 15:38:17 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2722)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3914)
+
+
+  
+ActionView::Template::Error (The asset "usa.jpg" is not present in the asset pipeline.):
+     6:             <a href="" class="logo"><strong><span class="lukyans h2">Lukyans</span> Team USA</strong></a>
+     7:             <!-- <button class="menu-button" id="open-button"><i class="fa fa-bars" aria-hidden="true"></i></button> -->
+     8: 
+     9:              <%= image_tag("usa.jpg", class: "navbar_logo", style: "border-radius: 0px;", width: "45", height: "30") %>
+    10: 
+    11:            </a>
+    12:           </div>
+  
+app/views/home/index.html.erb:9
+Started GET "/" for ::1 at 2020-04-07 15:38:34 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3187.3ms | Allocations: 273330)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 116)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 102)
+Completed 200 OK in 3967ms (Views: 3965.3ms | ActiveRecord: 0.0ms | Allocations: 428775)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:38:53 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 3559)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 109)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 102)
+Completed 200 OK in 49ms (Views: 42.4ms | ActiveRecord: 0.0ms | Allocations: 17684)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:39:25 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 3539)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 108)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 100)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.0ms | Allocations: 17338)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:39:26 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 3193)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 15566)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:39:31 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 3193)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms | Allocations: 15561)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:39:43 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 3548)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 109)
+  Rendered layouts/_footer.html.erb (Duration: 1.1ms | Allocations: 102)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.0ms | Allocations: 17477)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:39:49 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3550)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 109)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 102)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.0ms | Allocations: 17469)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:40:01 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 3539)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 100)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 17337)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:40:05 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 3538)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 100)
+Completed 200 OK in 33ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 17337)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:40:11 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 3549)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 109)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 102)
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 17476)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:40:38 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.3ms | Allocations: 3551)
+  Rendered layouts/_navigation.html.erb (Duration: 1.6ms | Allocations: 110)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 102)
+Completed 200 OK in 85ms (Views: 83.4ms | ActiveRecord: 0.0ms | Allocations: 17470)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:40:50 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 3537)
+  Rendered layouts/_navigation.html.erb (Duration: 2.9ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 4.0ms | Allocations: 100)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.0ms | Allocations: 17375)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:40:51 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 3208)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 5)
+Completed 200 OK in 59ms (Views: 56.8ms | ActiveRecord: 0.0ms | Allocations: 15690)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:41:14 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.4ms | Allocations: 3553)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 100)
+Completed 200 OK in 46ms (Views: 44.2ms | ActiveRecord: 0.0ms | Allocations: 17393)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:41:25 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 3556)
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 100)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms | Allocations: 17473)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:41:38 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 3553)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 108)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 100)
+Completed 200 OK in 46ms (Views: 44.2ms | ActiveRecord: 0.0ms | Allocations: 17460)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:42:12 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 3205)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2336ms (Views: 2333.9ms | ActiveRecord: 0.0ms | Allocations: 218856)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:42:23 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 3208)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2398ms (Views: 2395.6ms | ActiveRecord: 0.0ms | Allocations: 218300)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:42:41 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 20.0ms | Allocations: 3208)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2244ms (Views: 2241.4ms | ActiveRecord: 0.0ms | Allocations: 218735)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:44:18 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 17.9ms | Allocations: 3209)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 3072ms (Views: 3061.6ms | ActiveRecord: 0.0ms | Allocations: 218031)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:45:03 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 3208)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1932ms (Views: 1930.0ms | ActiveRecord: 0.0ms | Allocations: 218437)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:45:20 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 3208)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1900ms (Views: 1898.9ms | ActiveRecord: 0.0ms | Allocations: 218337)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:45:40 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 3208)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2436ms (Views: 2433.5ms | ActiveRecord: 0.0ms | Allocations: 218845)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:46:01 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 3208)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2347ms (Views: 2346.2ms | ActiveRecord: 0.0ms | Allocations: 218308)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:46:09 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 3208)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2138ms (Views: 2136.2ms | ActiveRecord: 0.0ms | Allocations: 218736)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:46:27 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 3208)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 1884ms (Views: 1882.6ms | ActiveRecord: 0.0ms | Allocations: 218294)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:46:44 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 3209)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2277ms (Views: 2275.6ms | ActiveRecord: 0.0ms | Allocations: 218296)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:47:43 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3208)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2399ms (Views: 2397.3ms | ActiveRecord: 0.0ms | Allocations: 218734)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:47:56 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3208)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2044ms (Views: 2041.9ms | ActiveRecord: 0.0ms | Allocations: 217944)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:48:26 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 3209)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.0ms | Allocations: 15620)
+
+
+Started GET "/" for ::1 at 2020-04-07 15:48:35 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 3193)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2474ms (Views: 2472.7ms | ActiveRecord: 0.0ms | Allocations: 218313)
+
+
+Started GET "/" for ::1 at 2020-04-07 17:51:03 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+Started GET "/" for ::1 at 2020-04-07 17:51:06 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4897.0ms | Allocations: 297858)
+  Rendered home/index.html.erb within layouts/application (Duration: 1823.8ms | Allocations: 105617)
+Started GET "/" for ::1 at 2020-04-07 17:51:32 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 67.4ms | Allocations: 23135)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 109)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 102)
+Completed 200 OK in 332ms (Views: 324.9ms | ActiveRecord: 0.0ms | Allocations: 64037)
+
+
+Started GET "/" for ::1 at 2020-04-07 17:53:01 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 3217)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 3119ms (Views: 3110.6ms | ActiveRecord: 0.0ms | Allocations: 219485)
+
+
+Started GET "/" for ::1 at 2020-04-07 17:53:27 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 3216)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1897ms (Views: 1895.5ms | ActiveRecord: 0.0ms | Allocations: 218842)
+
+
