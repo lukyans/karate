@@ -6870,3 +6870,111 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 1909ms (Views: 1907.0ms | ActiveRecord: 0.0ms | Allocations: 218945)
 
 
+Started GET "/" for ::1 at 2020-04-08 21:50:18 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 55.6ms | Allocations: 3560)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 110)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 100)
+Completed 200 OK in 851ms (Views: 836.5ms | ActiveRecord: 0.0ms | Allocations: 120277)
+
+
+Started GET "/" for ::1 at 2020-04-08 21:51:22 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 3553)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 100)
+Completed 200 OK in 49ms (Views: 46.1ms | ActiveRecord: 0.0ms | Allocations: 17383)
+
+
+Started GET "/" for ::1 at 2020-04-08 21:51:43 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 3538)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 100)
+Completed 200 OK in 42ms (Views: 39.7ms | ActiveRecord: 0.0ms | Allocations: 17362)
+
+
+Started GET "/" for ::1 at 2020-04-08 21:51:52 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 3553)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 100)
+Completed 200 OK in 62ms (Views: 58.9ms | ActiveRecord: 0.0ms | Allocations: 17383)
+
+
+Started GET "/" for ::1 at 2020-04-08 21:52:04 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 3556)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 100)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 17501)
+
+
+Started GET "/" for ::1 at 2020-04-08 21:52:34 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3197)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2471ms (Views: 2469.3ms | ActiveRecord: 0.0ms | Allocations: 218543)
+
+
+Started GET "/" for ::1 at 2020-04-08 21:53:12 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3213)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2178ms (Views: 2176.7ms | ActiveRecord: 0.0ms | Allocations: 218154)
+
+
+Started GET "/" for ::1 at 2020-04-08 21:53:58 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 3213)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2400ms (Views: 2398.0ms | ActiveRecord: 0.0ms | Allocations: 218130)
+
+
+Started GET "/" for ::1 at 2020-04-09 18:55:54 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 25.2ms | Allocations: 3212)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 90ms (Views: 74.3ms | ActiveRecord: 0.0ms | Allocations: 15611)
+
+
+Started GET "/" for ::1 at 2020-04-09 18:56:22 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 3197)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2850ms (Views: 2847.8ms | ActiveRecord: 0.0ms | Allocations: 217210)
+
+
+Started GET "/" for ::1 at 2020-04-09 18:57:53 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 3212)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2414ms (Views: 2411.6ms | ActiveRecord: 0.0ms | Allocations: 217633)
+
+
+Started GET "/" for ::1 at 2020-04-09 18:59:15 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 3212)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 2169ms (Views: 2168.2ms | ActiveRecord: 0.0ms | Allocations: 218428)
+
+

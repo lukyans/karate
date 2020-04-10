@@ -67,7 +67,8 @@ a {
 .btn-common {
   border: 2px solid #9bb6ff;
   background-color: #ffffff;
-  color: #3466ae;
+  // color: #3466ae;
+  color: red;
   position: relative;
   z-index: 1;
   text-align: center;
@@ -379,7 +380,7 @@ font-family: 'Caveat', cursive;
   background-repeat:   no-repeat;
 }
 #video-area .contents {
-  padding: 160px 0 80px;
+  padding: 180px 0 80px;
 }
 #video-area .contents h1 {
   color: #fff;
@@ -398,6 +399,7 @@ font-family: 'Caveat', cursive;
 #video-area .contents .btn {
   margin: 0px 10px;
   text-transform: uppercase;
+  text-color: red;
 }
 #video-area .banner_bottom_btn {
   margin-top: 40px;
@@ -420,8 +422,8 @@ font-family: 'Caveat', cursive;
     bottom: 0;
     left: 0;
     // background: rgba(25,25,112, .6);
-    background: linear-gradient(45deg, black 20%, rgba(25,25,112, .6))!important;
-    opacity: 0.7;
+    background: linear-gradient(45deg, black 20%, rgba(25,25,112, .5))!important;
+    opacity: 0.8;
     z-index: 300;
 
 }
