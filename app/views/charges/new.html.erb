@@ -1,18 +1,52 @@
-<%= form_tag charges_path do %>
-  <article>
+<div class="container col-6 mb-5 mt-5">
+  <%= form_tag charges_path do %>
     <% if flash[:error].present? %>
       <div id="error_explanation">
         <p><%= flash[:error] %></p>
       </div>
     <% end %>
-    <label class="amount">
-      <span>Amount: $5.00</span>
-    </label>
-  </article>
-
-  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-          data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
-          data-description="A month's subscription"
-          data-amount="500"
-          data-locale="auto"></script>
-<% end %>
+    <div class="card">
+      <div class="card-header">
+        Order details
+      </div>
+      <div class="card-body">
+        <div class="card-text font-weight-bold">Shiping information:</div>
+        <div>
+          <%= @current_cart.line_items.last.order.name %>
+        </div>
+        <div>
+          <%= @current_cart.line_items.last.order.email %>
+        </div>
+        <div>
+          <%= @current_cart.line_items.last.order.address %>
+        </div>
+        <table class="table mt-3">
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col" class="text-center">Quantity</th>
+              <th scope="col" class="text-center">Price</th>
+            </tr>
+          </thead>
+          <% @current_cart.line_items.each do |line_item| %>
+            <tbody>
+              <tr>
+                <td><%= line_item.product.name %></td>
+                <td class="text-center"><%= line_item.quantity %></td>
+                <td class="text-center"><%= line_item.product.price %></td>
+              </tr>
+            </tbody>
+          <% end %>
+          </table>
+        <div class="mt-5 mb-3 text-right">Amount: $<%= @current_cart.sub_total %></div>
+        <div class="text-right">
+          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+                data-description="Payment"
+                data-amount="<%= @current_cart.dollars_to_cents(@current_cart.sub_total) %>"
+                data-locale="auto"></script>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
