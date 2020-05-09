@@ -1,11 +1,17 @@
 class ChargesController < ApplicationController
   def new
-    @orders = Order.all
   end
 
   def create
   # Amount in cents
-  @amount = 600
+  amount_in_dollars = @current_cart.sub_total
+  @amount = @current_cart.dollars_to_cents(amount_in_dollars)
+
+  @current_cart.line_items.each do |item|
+    item.cart_id = nil
+  end
+  Cart.destroy(session[:cart_id])
+  session[:cart_id] = nil
 
   customer = Stripe::Customer.create({
     email: params[:stripeEmail],
