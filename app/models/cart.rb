@@ -9,4 +9,10 @@ class Cart < ApplicationRecord
     end
     return sum
   end
+
+  def dollars_to_cents(dollars)
+    (100 * dollars.to_r).to_i
+  end
+
+
 end
