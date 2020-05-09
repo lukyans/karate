@@ -3,7 +3,9 @@ class CartsController < ApplicationController
   # GET /carts/1
   # GET /carts/1.json
   def show
+    @footer_variable = true
     @cart = @current_cart
+    @order = Order.new
   end
 
   # GET /carts/new
