@@ -20,7 +20,11 @@
 
   <body>
     <%= yield %>
-    <%= render 'layouts/footer'%>
+    <% if @footer_variable %>
+      <%= render 'layouts/footer' %>
+    <% else %>
+      <%= render 'layouts/optional_footer' %>
+    <% end %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>
