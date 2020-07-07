@@ -1,0 +1,165 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* line 2, app/assets/stylesheets/responsive.scss */
+  .section-header .section-title {
+    font-size: 22px;
+  }
+  /* line 5, app/assets/stylesheets/responsive.scss */
+  #video-area .contents h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  /* line 9, app/assets/stylesheets/responsive.scss */
+  .navbar-light .navbar-nav .nav-link {
+    padding: 8px 0px;
+    font-size: 13px;
+  }
+  /* line 13, app/assets/stylesheets/responsive.scss */
+  .item-boxes h4 {
+    font-size: 16px;
+  }
+  /* line 16, app/assets/stylesheets/responsive.scss */
+  #features .box-item .text h4 {
+    font-size: 12px;
+  }
+  /* line 19, app/assets/stylesheets/responsive.scss */
+  #features .content-left .text {
+    margin-right: 85px;
+  }
+  /* line 22, app/assets/stylesheets/responsive.scss */
+  #features .content-right .text {
+    margin-left: 85px;
+  }
+  /* line 25, app/assets/stylesheets/responsive.scss */
+  .subscribe-box input[type="text"] {
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  /* line 30, app/assets/stylesheets/responsive.scss */
+  .section-header .section-title {
+    font-size: 30px;
+  }
+  /* line 33, app/assets/stylesheets/responsive.scss */
+  .menu-wrap {
+    padding: 10px;
+  }
+  /* line 36, app/assets/stylesheets/responsive.scss */
+  .icon-list a {
+    padding: 5px 0;
+  }
+  /* line 39, app/assets/stylesheets/responsive.scss */
+  .icon-list a::before {
+    top: 5px;
+  }
+  /* line 42, app/assets/stylesheets/responsive.scss */
+  .bg-faded {
+    background: #fff !important;
+  }
+  /* line 45, app/assets/stylesheets/responsive.scss */
+  #video-area .contents h1 {
+    font-size: 30px;
+    line-height: 48px;
+  }
+  /* line 49, app/assets/stylesheets/responsive.scss */
+  #features .content-right span {
+    float: none;
+  }
+  /* line 52, app/assets/stylesheets/responsive.scss */
+  #features .content-left span {
+    float: none;
+  }
+  /* line 55, app/assets/stylesheets/responsive.scss */
+  #features .box-item .text h4 {
+    font-size: 14px;
+  }
+  /* line 58, app/assets/stylesheets/responsive.scss */
+  .table-left {
+    margin: 0px 0px;
+  }
+  /* line 61, app/assets/stylesheets/responsive.scss */
+  .counters .facts-item {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* line 66, app/assets/stylesheets/responsive.scss */
+  .bg-faded {
+    background: #fff !important;
+  }
+  /* line 69, app/assets/stylesheets/responsive.scss */
+  .section-header .section-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /* line 73, app/assets/stylesheets/responsive.scss */
+  #video-area .contents {
+    padding: 80px 0 60px;
+  }
+  /* line 76, app/assets/stylesheets/responsive.scss */
+  #video-area .contents h1 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  /* line 80, app/assets/stylesheets/responsive.scss */
+  #video-area .back-img {
+    background: url(/assets/home-cd994381b1e6ed4dc291a2f88d6f90bdb57c5e95a6d3d76b0c03c403b79196cf.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* line 88, app/assets/stylesheets/responsive.scss */
+  #video-area .back-img2 {
+    background: url(/assets/home2-dd23dc8d3e9e43af2c3b5e1d94ba394ecd36fbce030c5d1849be872caf0d68c1.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* line 96, app/assets/stylesheets/responsive.scss */
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* line 104, app/assets/stylesheets/responsive.scss */
+  .video-promo .video-promo-content h2 {
+    font-size: 18px;
+  }
+  /* line 107, app/assets/stylesheets/responsive.scss */
+  .pricing-tables .pricing-table {
+    margin-bottom: 30px;
+  }
+  /* line 110, app/assets/stylesheets/responsive.scss */
+  #blog .blog-item-text h3 {
+    font-size: 18px;
+  }
+  /* line 113, app/assets/stylesheets/responsive.scss */
+  #blog .blog-item-text .meta-tags span {
+    margin-right: 5px;
+  }
+  /* line 116, app/assets/stylesheets/responsive.scss */
+  .counters .facts-item {
+    margin-bottom: 30px;
+  }
+  /* line 119, app/assets/stylesheets/responsive.scss */
+  #contact .section-title {
+    font-size: 22px;
+  }
+  /* line 122, app/assets/stylesheets/responsive.scss */
+  #subscribe .sub_btn {
+    min-width: 120px;
+  }
+  /* line 125, app/assets/stylesheets/responsive.scss */
+  .social-icons ul li a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+  }
+}
