@@ -12,7 +12,7 @@
       <div class="slide l-fade" data-ride="carousel" data-interval="4000">
         <div class="back-img carousel-item active"></div>
         <div class="back-img2 carousel-item"></div>
-        <div class="back-img3 carousel-item" data-interval="2400">
+        <div class="back-img3 carousel-item" data-interval="3400">
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
             <source src="https://res.cloudinary.com/dbo1mgpii/video/upload/v1586114951/karate_fight.mp4" type="video/mp4">
       </video>
@@ -23,9 +23,13 @@
         <div class="row justify-content-md-center">
           <div class="col-md-10">
             <div class="contents text-center">
-              <h1 class="wow pos fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Help to reach the winning goal and take home the trophy</h1>
+              <h1 class="wow pos fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
+                <!-- Help to reach the winning goal and take home the trophy -->
+                “When two tigers fight, one is certain to be maimed, and one to die.”
+              <div>-- Gichin Funakoshi</div>
+            </h1>
               <p class="lead pos wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">The USA Team has been selected and Im so excited to be competing in Japan 2021 World Cup.</p>
-              <a href="#portfolios" class="btn pos btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Support</a>
+              <!-- <a href="#portfolios" class="btn pos btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Support</a> -->
             </div>
 
           </div>
@@ -42,7 +46,7 @@
         <div class="row">
           <div class="col-md-12">
             <!-- Portfolio Controller/Buttons -->
-            <div class="controls text-center wow fadeInUp" data-wow-delay=".6s">
+            <!-- <div class="controls text-center wow fadeInUp" data-wow-delay=".6s">
               <a class="control mixitup-control-active btn btn-common" data-filter="all">
                 All
               </a>
@@ -55,17 +59,17 @@
               <a class="control btn btn-common" data-filter=".research">
                 Print
               </a>
-            </div>
+            </div> -->
             <!-- Portfolio Controller/Buttons Ends-->
 
             <!-- Portfolio Recent Projects -->
-            <% @products.each do |product| %>
+            <!-- <% @products.each do |product| %>
               <div id="portfolio" class="row wow fadeInUp" data-wow-delay="0.8s">
                 <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
                   <div class="portfolio-item">
                     <div class="shot-item">
                     <a class="overlay lightbox" href="https://res.cloudinary.com/dbo1mgpii/image/upload/v1579817577/4.png">
-                        <%= image_tag("portfolio/img1.jpg", alt: "")%>
+                        <%#= image_tag("portfolio/img1.jpg", alt: "")%>
                         <i class="fa fa-plus item-icon" aria-hidden="true"></i>
                     </a>
                     <div class="card-body">
@@ -86,44 +90,13 @@
                     </div>
                   </div>
                 </div>
-              <% end %>
-
+              <% end %> -->
+            <div id="portfolio" class="row wow fadeInUp" data-wow-delay="0.8s">
               <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning">
                 <div class="portfolio-item">
                   <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img2.jpg">
-
-                      <%= image_tag("portfolio/img2.jpg", alt: "")%>
-                      <i class="fa fa-plus item-icon" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix research">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img3.jpg">
-                      <%= image_tag("portfolio/img3.jpg", alt: "")%>
-                      <i class="fa fa-plus item-icon" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing research">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img4.jpg">
-                      <%= image_tag("portfolio/img4.jpg", alt: "")%>
-                      <i class="fa fa-plus item-icon" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img5.jpg">
-                      <%= image_tag("portfolio/img5.jpg", alt: "")%>
+                    <a class="overlay lightbox" href="https://res.cloudinary.com/dbo1mgpii/image/upload/v1594098411/img1.jpg">
+                      <%= image_tag("https://res.cloudinary.com/dbo1mgpii/image/upload/v1594098411/img1.jpg")%>
                       <i class="fa fa-plus item-icon" aria-hidden="true"></i>
                     </a>
                   </div>
@@ -132,8 +105,28 @@
               <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning research">
                 <div class="portfolio-item">
                   <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img6.jpg">
-                      <%= image_tag("portfolio/img6.jpg", alt: "")%>
+                    <a class="overlay lightbox" href="https://res.cloudinary.com/dbo1mgpii/image/upload/v1594098410/img2.jpg">
+                      <%= image_tag("https://res.cloudinary.com/dbo1mgpii/image/upload/v1594098410/img2.jpg")%>
+                      <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix research">
+                <div class="portfolio-item">
+                  <div class="shot-item">
+                    <a class="overlay lightbox" href="https://res.cloudinary.com/dbo1mgpii/image/upload/v1594098411/img3.jpg">
+                      <%= image_tag("https://res.cloudinary.com/dbo1mgpii/image/upload/v1594098411/img3.jpg", alt: "")%>
+                      <i class="fa fa-plus item-icon" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing research">
+                <div class="portfolio-item">
+                  <div class="shot-item">
+                    <a class="overlay lightbox" href="https://res.cloudinary.com/dbo1mgpii/image/upload/v1594098414/img6.jpg">
+                      <%= image_tag("https://res.cloudinary.com/dbo1mgpii/image/upload/v1594098414/img6.jpg", alt: "")%>
                       <i class="fa fa-plus item-icon" aria-hidden="true"></i>
                     </a>
                   </div>
